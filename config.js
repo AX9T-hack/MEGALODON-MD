@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~vY1hXSyL#mfdHUiXdAJnDP2DLKcMpr9OOAkkaWjDr1Ej2WpljBrA",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~iMdDwAIL#XQLC6fYMgXaoNmJo8c8McKF-hYGoOTiD0jeuaDHP_pw",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -43,7 +43,7 @@ DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",
 // add your bot owner number
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
@@ -59,7 +59,7 @@ ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
 ANTILINK_KICK: process.env.ANTILINK_KICK || "false",
 ANTILINK: process.env.ANTILINK || "false",
 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
